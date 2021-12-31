@@ -1,0 +1,52 @@
+#title, .subtitle, .post_title{
+    color: rgb(201, 225, 245);
+}
+
+.post_title{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.post, #top, #history, p{
+    margin: 1%;
+    padding: 1%;
+}
+.post{
+    background-color: rgb(61, 40, 119);
+  
+}
+#top{
+    background-color: rgb(48, 47, 53);
+    border: blanchedalmond;
+    
+}
+#history{
+    background-color: rgb(31, 29, 71);
+
+}
+p{
+    background-color: rgb(230, 206, 252);
+    height: auto;
+    max-width: 55%;
+    margin: 0% 0% 1% 10%;
+}
+img{
+    border-radius: 25%;
+    align-self: auto;
+    
+}
+a{
+    text-decoration:solid;
+    color: rgb(48, 47, 53);
+}
+.capa{
+    max-height: 200px;
+    width: auto;
+
+}
+ul{
+    list-style-type: none;
+    padding-left: 50%;
+    font-weight: bold;
+    font-size: 20px;
+}
