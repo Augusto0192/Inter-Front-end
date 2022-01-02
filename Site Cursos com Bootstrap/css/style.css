@@ -1,0 +1,26 @@
+.navbar{
+    background-color:#abb2b9 ;
+    padding-bottom: 1%;
+}
+section{
+    
+    padding: 2%;
+}
+footer{
+    background-color: #111;
+    color: blanchedalmond;
+    padding: 1%;
+}
+p, h2, h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#quemSomos{
+    background-color:  #76a597 ;
+}
+
+#cursos{
+    background-color:  #7688a5 ;
+}
+#contato{
+    background-color:  #a9a8b8 ;
+}

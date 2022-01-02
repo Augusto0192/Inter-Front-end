@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+    <head>
+        <title> Teste Bootstrap</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#"> <img src="img/github.png" width="80" height="80"> </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#quemSomos">Quem Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#cursos">Cursos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contato">Entre em Contato</a>
+                  </li>
+                </ul>
+            </div>
+
+        </nav>
+        <Section id="quemSomos">
+            <Div class="container-fluid quem-somos text-center">
+                <h2>Quem Somos </h2>
+                <img src="https://uploads.spiritfanfiction.com/fanfics/historias/201503/fanfiction-originais-nakama-3273592,160320152240.jpg" width="400" height="400" class="rounded-circle">
+                <h3>Somos um time comprometido em entregar projetos ao github</h3>
+            </Div>
+        </Section>
+        <Section id="cursos">
+            <Div class="container-fluid quem-somos text-center">
+                <h2>Cursos </h2>
+                <img src="https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/04/Curso-online.jpg?quality=100&strip=info&resize=680,453" width="400" height="400" class="rounded-circle">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h4>Curso 1</h4>
+                            <p> Descrição curso 1</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <h4>Curso 2</h4>
+                            <p> Descrição curso 2</p>              
+                        </div>
+                    
+                    </div>
+                    
+                    <h3>temos vários cursos</h3>
+                   
+
+                </div>
+                
+            </Div>
+        </Section>
+        <Section id="contato">
+            <Div class="container-fluid quem-somos text-center">
+                <h2>Entre em contato </h2>
+                <img src="data:image/png;base64,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"" width="400" height="400" class="rounded-circle">
+                <h3>E-mail:</h3>
+                <h3>Telefones</h3>
+                <h3>Watsapp</h3>
+            </Div>
+        </Section>
+        <footer class="container-fluid text-center  ">
+            <p>Desenvolvido por Augusto Montauriol.</p>
+        </footer>
+    </body>
+</html>
